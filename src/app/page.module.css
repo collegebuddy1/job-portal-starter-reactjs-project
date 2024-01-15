@@ -1,0 +1,65 @@
+.main {
+  /* padding-top: 3em; */
+  text-align: center;
+  margin: 0;
+  min-height: 100vh;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  background-color: #f0f6f6;
+}
+.mainTitle {
+  color: #084b83;
+  margin: 1em 0em;
+  font-size: 2rem;
+}
+.reasons {
+  margin: 1em;
+}
+.reasonsTitle {
+  color: #084b83;
+  margin: 1em;
+}
+.reasonsDescription {
+  color: #2f2e41;
+  font-weight: lighter;
+  font-size: 0.8rem;
+  letter-spacing: 1px;
+}
+
+.svg {
+  height: 300px;
+  width: 80%;
+  margin: 1em 0em;
+}
+
+.item {
+  height: 600px;
+}
+
+@media (min-width: 1400px) {
+  .titulo {
+    font-size: 6em;
+  }
+  .mainTitle {
+    font-size: 3rem;
+  }
+  .reasons {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 1em 2em;
+  }
+  .reasonsDescription {
+    margin: 0em 2.5em;
+    color: #2f2e41;
+    font-weight: lighter;
+    font-size: 1rem;
+  }
+
+  .svg {
+    height: 500px;
+  }
+  .item {
+    height: 700px;
+  }
+  
+}
